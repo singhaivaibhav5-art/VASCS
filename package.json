@@ -1,0 +1,21 @@
+{
+  "name": "vascs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Veeransh AI Saree Catalogue Studio (Enterprise Edition)",
+  "packageManager": "pnpm@10.17.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "turbo run format"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.6"
+  },
+  "dependencies": {
+    "qrcode.react": "^4.2.0",
+    "react-barcode": "^1.6.1"
+  }
+}
